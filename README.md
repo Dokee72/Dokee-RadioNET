@@ -3,6 +3,20 @@
 
 ESP32 WROOM, SSD1306 OLED (I2C), Rotary Encoder (KY040) &amp; PCM5102A Audio DAC-kal.
 
+.....................................................................................
+
+Feltöltés Arduino IDE progival, ESP32 WROOM-nál az ESP32 Dev Module alaplapot kiválasztva, a megfelelő port-al, ami nálam a COM7-es és a megfelelő partició kiválasztásával, ami lehet a default is, de nálam jobban megy a Huge APP (3MB No OTA/1MB SPIFFS)-el.
+
+A rádió linkeket megváltoztathatod a listában de a rádió név listát is sorrendben kell szerkeszteni hozzá.
+
+Nűködése: Indításnál az első rádió streem indul el.
+
+Rotary-t tekergetve a hangerő változik 0 és 21 között.
+
+A rotary-t megnyomva, a streem-ek között lépked, amire azonnal megszólal a választott  rádió csatorna. 3 másodperc tétlenség után visszaáll hangerő módba.
+
+.....................................................................................
+
 Saját otthoni Wifi-d neve = "Your-WiFi-ID";
 
 Saját otthoni Wifi-d jelszava = "Your-WiFi-Passport";
@@ -90,6 +104,4 @@ GND:   // GND (fix)
 
 .....................................................................................
 
-Feltöltés Arduino IDE progival, ESP32 WROOM-nál az ESP32 Dev Module alaplapot kiválasztva, a megfelelő port-al, ami nálam a COM7-es és a megfelelő partició kiválasztásával, ami lehet a default is, de nálam jobban megy a Huge APP (3MB No OTA/1MB SPIFFS)-el.
 
-A rádió linkeket megváltoztathatod a listában de a rádió név listát is sorrendben kel szerkeszteni hozzá.
