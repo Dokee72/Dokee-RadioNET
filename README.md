@@ -1,0 +1,2 @@
+# Dokee-RadioNET
+ESP32 WROOM, SSD1306 OLED (I2C), Rotary Encoder (KY040) &amp; PCM5102A DAC
