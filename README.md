@@ -17,6 +17,11 @@ A rotary-t megnyomva, a streem-ek között lépked, amire azonnal megszólal a v
 
 .....................................................................................
 
+https://www.youtube.com/watch?v=iDNedIdGSz4
+
+.....................................................................................
+
+
 Saját otthoni Wifi-d neve = "Your-WiFi-ID";
 
 Saját otthoni Wifi-d jelszava = "Your-WiFi-Passport";
